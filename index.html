@@ -1,0 +1,121 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8">
+<title>TOP-10 vs FADE - XSMB</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root{color-scheme:light;--plane:#f4f3ef;--surface:#fcfcfb;--surface-2:#f7f6f2;--ink:#141311;--ink-2:#52514e;--muted:#898781;--grid:#e4e2db;--axis:#c3c2b7;--ring:rgba(11,11,11,.1);--top:#2a78d6;--top-soft:rgba(42,120,214,.13);--fade:#eb6834;--fade-soft:rgba(235,104,52,.13);--good:#0ca30c;--bad:#d03b3b;--mono:ui-monospace,"Cascadia Code",Consolas,monospace;--sans:system-ui,-apple-system,"Segoe UI",sans-serif}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--plane:#0c0c0b;--surface:#191918;--surface-2:#1f1f1d;--ink:#f5f4ef;--ink-2:#c3c2b7;--muted:#8f8d86;--grid:#292927;--axis:#3a3a37;--ring:rgba(255,255,255,.11);--top:#3987e5;--top-soft:rgba(57,135,229,.16);--fade:#d95926;--fade-soft:rgba(217,89,38,.17);--good:#1fb81f;--bad:#e05656}}
+*{box-sizing:border-box}body{margin:0;background:var(--plane);color:var(--ink);font-family:var(--sans);line-height:1.5}
+.wrap{max-width:960px;margin:0 auto;padding:26px 16px 50px}
+h1{font-size:clamp(22px,5vw,30px);margin:0 0 6px;letter-spacing:-.02em}
+.sub{color:var(--ink-2);font-size:14px;margin:0 0 4px}.upd{color:var(--muted);font-size:12px;font-family:var(--mono)}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:22px 0}
+@media(max-width:560px){.cards{grid-template-columns:1fr}}
+.card{background:var(--surface);border:1px solid var(--ring);border-radius:14px;padding:18px}
+.tag{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:700;margin:0 0 3px}
+.dot{width:11px;height:11px;border-radius:3px;display:inline-block}
+.days{font-size:11.5px;color:var(--muted);margin:0 0 12px}
+.roi{font-family:var(--mono);font-size:32px;font-weight:600;line-height:1}
+.metrics{display:flex;gap:16px;margin-top:12px;flex-wrap:wrap;font-size:12px;color:var(--ink-2)}
+.metrics b{display:block;font-family:var(--mono);font-size:15px;color:var(--ink);margin-top:2px}
+.pos{color:var(--good)}.neg{color:var(--bad)}
+section.card{margin-bottom:16px}h2{font-size:15px;margin:0 0 3px}.cap{font-size:12.5px;color:var(--muted);margin:0 0 14px}
+.legend{display:flex;gap:14px;flex-wrap:wrap;margin:0 0 10px;font-size:12px;color:var(--ink-2)}
+svg{display:block;width:100%;height:auto;overflow:visible}
+table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:6px 8px;text-align:right;border-bottom:1px solid var(--grid)}th:first-child,td:first-child{text-align:left;font-family:var(--mono)}th{color:var(--muted);font-weight:600;font-size:11px;text-transform:uppercase}td.mono{font-family:var(--mono)}
+.nhip{overflow-x:auto}.grid{display:grid;gap:4px;align-items:center}
+.hd{text-align:center;font-size:10px;color:var(--muted);font-family:var(--mono)}.hd b{color:var(--ink-2)}
+.rl{font-family:var(--mono);font-size:11px;font-weight:600;text-align:right;padding-right:5px;white-space:nowrap}
+.cell{height:24px;border-radius:5px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:800;color:#fff}
+.hit{background:var(--good)}.miss{background:var(--bad)}
+.foot{text-align:center;font-size:11px;color:var(--muted);font-family:var(--mono)}.fl{text-align:right;font-size:10px;color:var(--muted);padding-right:5px}
+footer{margin-top:22px;padding:16px 18px;background:var(--surface-2);border:1px solid var(--ring);border-radius:12px;font-size:12.5px;color:var(--ink-2)}
+footer b{color:var(--ink)}
+</style></head><body><div class="wrap">
+<h1>TOP-10 vs FADE</h1>
+<p class="sub">XSMB Miền Bắc · kèo 1 ăn 99 · thí nghiệm theo dõi (chưa proven edge)</p>
+<p class="upd">Tự cập nhật mỗi ngày · dữ liệu tới <b>31/08</b></p>
+
+<div class="cards">
+ <div class="card"><p class="tag"><i class="dot" style="background:var(--top)"></i>TOP-10 (nguồn 2x)</p>
+  <p class="days">15 ngày · dàn 59 số</p><div class="roi pos">+11,9%</div>
+  <div class="metrics"><div>Trúng<b>10/15 · 67%</b></div><div>P&amp;L (u5)<b class="pos">+525</b></div></div></div>
+ <div class="card"><p class="tag"><i class="dot" style="background:var(--fade)"></i>FADE ≥5x (8 dàn)</p>
+  <p class="days">16 ngày · ~333 số/phiên</p><div class="roi pos">+27,5%</div>
+  <div class="metrics"><div>Đỉnh→giờ<b>+7.415 → +7.415</b></div><div>P&amp;L (u5)<b class="pos">+7.415</b></div></div></div>
+</div>
+
+<section class="card"><h2>P&amp;L luỹ kế</h2><p class="cap">TOP-10 (xanh) vs FADE (cam)</p>
+ <div class="legend"><span><i class="dot" style="background:var(--top)"></i>TOP-10</span><span><i class="dot" style="background:var(--fade)"></i>FADE</span></div>
+ <div style="position:relative"><svg id="cum" viewBox="0 0 780 300"></svg></div></section>
+
+<section class="card"><h2>P&amp;L từng dàn FADE (17→31/08)</h2><p class="cap">sắp theo P&amp;L tăng dần · win% so hoà vốn (số÷99)</p>
+ <div style="overflow-x:auto"><table id="dantbl"></table></div></section>
+
+<section class="card"><h2>Nhịp ăn TOP-10</h2><p class="cap">4 dàn: nguồn2x · 2D · full7x · bảo hộ · <span class="pos">ăn ✓</span>/<span class="neg">trượt ✗</span></p>
+ <div class="nhip"><div class="grid" id="topnhip"></div></div></section>
+
+<section class="card"><h2>Nhịp ăn FADE ≥5x — 8 dàn ⭐</h2><p class="cap"><span class="pos">ăn ✓</span>/<span class="neg">trượt ✗</span> · dòng cuối = ăn/8 mỗi ngày</p>
+ <div class="nhip"><div class="grid" id="fadenhip"></div></div></section>
+
+<section class="card"><h2>Mức về 4 ladder — MB · &gt;3x · &gt;4x · follow5x</h2><p class="cap">ĐB rơi tầng nào (9x→0x) · <b style="color:#12a052">chặt</b>→<b style="color:#d6432f">lỏng</b> · –=follow5x ko data</p>
+ <div class="nhip"><div class="grid" id="lad3"></div></div></section>
+
+<footer><b>Đọc tỉnh:</b> tất cả là 1 tháng in-sample, kèo 1:99. Backtest dài hạn: fade r=0.18 chưa proven, follow5x = baseline (~69%, 11/16 ngày). ROI đẹp phần lớn do vài ngày may (28-29 fade ăn 8/8 & 7/8). <b>Coi là paper-trade, đừng dồn tiền theo tháng đẹp.</b></footer>
+</div>
+
+<script>
+const TOP=[{"d": "17", "db": "39", "ng": 1, "d2": 0, "f7": 0, "cum": 200}, {"d": "18", "db": "83", "ng": 0, "d2": 0, "f7": 0, "cum": -95}, {"d": "19", "db": "43", "ng": 1, "d2": 1, "f7": 1, "cum": 105}, {"d": "20", "db": "23", "ng": 1, "d2": 1, "f7": 1, "cum": 305}, {"d": "21", "db": "33", "ng": 1, "d2": 1, "f7": 1, "cum": 505}, {"d": "22", "db": "13", "ng": 0, "d2": 1, "f7": 1, "cum": 210}, {"d": "23", "db": "38", "ng": 1, "d2": 1, "f7": 1, "cum": 410}, {"d": "24", "db": "17", "ng": 1, "d2": 1, "f7": 1, "cum": 610}, {"d": "25", "db": "80", "ng": 0, "d2": 0, "f7": 0, "cum": 315}, {"d": "26", "db": "61", "ng": 0, "d2": 0, "f7": 0, "cum": 20}, {"d": "27", "db": "45", "ng": 1, "d2": 1, "f7": 1, "cum": 220}, {"d": "28", "db": "68", "ng": 1, "d2": 1, "f7": 1, "cum": 420}, {"d": "29", "db": "37", "ng": 1, "d2": 1, "f7": 0, "cum": 620}, {"d": "30", "db": "72", "ng": 0, "d2": 0, "f7": 0, "cum": 325}, {"d": "31", "db": "44", "ng": 1, "d2": 1, "f7": 1, "cum": 525}],BH=[0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1],FADE=[{"d": "17", "db": "39", "pnl": 1805, "hits": 7, "cum": 1805}, {"d": "18", "db": "83", "pnl": 1790, "hits": 7, "cum": 3595}, {"d": "19", "db": "43", "pnl": 2285, "hits": 8, "cum": 5880}, {"d": "20", "db": "23", "pnl": -180, "hits": 3, "cum": 5700}, {"d": "21", "db": "33", "pnl": -1675, "hits": 0, "cum": 4025}, {"d": "22", "db": "13", "pnl": -685, "hits": 2, "cum": 3340}, {"d": "23", "db": "38", "pnl": 295, "hits": 4, "cum": 3635}, {"d": "24", "db": "17", "pnl": 295, "hits": 4, "cum": 3930}, {"d": "25", "db": "80", "pnl": -1170, "hits": 1, "cum": 2760}, {"d": "26", "db": "61", "pnl": 1300, "hits": 6, "cum": 4060}, {"d": "27", "db": "45", "pnl": -1665, "hits": 0, "cum": 2395}, {"d": "28", "db": "68", "pnl": 2295, "hits": 8, "cum": 4690}, {"d": "29", "db": "37", "pnl": 1780, "hits": 7, "cum": 6470}, {"d": "30", "db": "72", "pnl": -160, "hits": 3, "cum": 6310}, {"d": "31", "db": "44", "pnl": -1170, "hits": 1, "cum": 5140}, {"d": "01", "db": "21", "pnl": 2275, "hits": 8, "cum": 7415}],DANTBL=[{"n": "comp3x.4x", "sz": 49, "w": 9, "b": 16, "wr": 56, "be": 49, "pnl": 535}, {"n": "comp3x.2x", "sz": 29, "w": 7, "b": 16, "wr": 44, "be": 29, "pnl": 1145}, {"n": "comp4x.6x", "sz": 69, "w": 12, "b": 16, "wr": 75, "be": 70, "pnl": 420}, {"n": "comp4x.3x", "sz": 39, "w": 8, "b": 16, "wr": 50, "be": 39, "pnl": 840}, {"n": "top4.3x", "sz": 40, "w": 9, "b": 16, "wr": 56, "be": 40, "pnl": 1255}, {"n": "top4.4x", "sz": 39, "w": 9, "b": 16, "wr": 56, "be": 39, "pnl": 1335}, {"n": "giao6x", "sz": 62, "w": 12, "b": 16, "wr": 75, "be": 63, "pnl": 1200}, {"n": "ring2x_3x", "sz": 10, "w": 3, "b": 16, "wr": 19, "be": 10, "pnl": 685}],FN={"dates": ["17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "01"], "dbs": ["39", "83", "43", "23", "33", "13", "38", "17", "80", "61", "45", "68", "37", "72", "44", "21"], "rows": [{"n": "comp3x.4x", "h": [1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 1]}, {"n": "comp3x.2x", "h": [1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1]}, {"n": "comp4x.6x", "h": [1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1]}, {"n": "comp4x.3x", "h": [1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1]}, {"n": "top4.3x", "h": [1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 1]}, {"n": "top4.4x", "h": [1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1]}, {"n": "giao6x", "h": [1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1]}, {"n": "ring2x_3x", "h": [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1]}]},L3=[["17", 39, "4x", "1x", "0x", "6x"], ["18", 83, "out", "1x", "3x", "5x"], ["19", 43, "0x", "2x", "2x", "0x"], ["20", 23, "4x", "3x", "4x", "1x"], ["21", 33, "2x", "7x", "9x", "7x"], ["22", 13, "9x", "6x", "4x", "2x"], ["23", 38, "0x", "6x", "2x", "7x"], ["24", 17, "0x", "4x", "5x", "0x"], ["25", 80, "9x", "8x", "out", "5x"], ["26", 61, "8x", "0x", "0x", "5x"], ["27", 45, "3x", "7x", "8x", "out"], ["28", 68, "2x", "2x", "2x", "1x"], ["29", 37, "3x", "0x", "0x", "3x"], ["30", 72, "9x", "5x", "6x", "out"], ["31", 44, "1x", "8x", "8x", "3x"]];
+const cvar=n=>getComputedStyle(document.body).getPropertyValue(n).trim();
+const fmt=v=>(v>0?"+":"")+v.toLocaleString("vi-VN");
+const NS="http://www.w3.org/2000/svg";
+function el(t,a){const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);return e;}
+// cumulative
+(function(){
+ const svg=document.getElementById("cum"),W=780,H=300,L=48,R=60,T=18,B=38,iw=W-L-R,ih=H-T-B,N=TOP.length;
+ const allc=TOP.map(r=>r.cum).concat(FADE.map(r=>r.cum));
+ const max=Math.max(1000,Math.ceil(Math.max(...allc)/1000)*1000);
+ const X=i=>L+iw*i/(N-1),Y=v=>T+ih*(1-v/max);
+ for(let g=0;g<=max;g+=2000){svg.appendChild(el("line",{x1:L,x2:W-R,y1:Y(g),y2:Y(g),stroke:cvar("--grid"),"stroke-width":1}));const t=el("text",{x:L-6,y:Y(g)+4,"text-anchor":"end","font-size":10,fill:cvar("--muted")});t.textContent=(g/1000)+"k";svg.appendChild(t);}
+ TOP.forEach((r,i)=>{if(i%3===0||i===N-1){const t=el("text",{x:X(i),y:H-12,"text-anchor":"middle","font-size":9,fill:cvar("--muted")});t.textContent=r.d;svg.appendChild(t);}});
+ const fi=TOP.findIndex(r=>r.d===FADE[0].d);
+ const fp=FADE.map((r,i)=>[X(fi+i),Y(r.cum)]);
+ svg.appendChild(el("path",{d:"M"+fp.map(p=>p[0]+" "+p[1]).join(" L ")+" L "+fp[fp.length-1][0]+" "+Y(0)+" L "+fp[0][0]+" "+Y(0)+" Z",fill:cvar("--fade-soft")}));
+ svg.appendChild(el("path",{d:"M"+fp.map(p=>p[0]+" "+p[1]).join(" L "),fill:"none",stroke:cvar("--fade"),"stroke-width":2.4,"stroke-linejoin":"round"}));
+ const tp=TOP.map((r,i)=>[X(i),Y(r.cum)]);
+ svg.appendChild(el("path",{d:"M"+tp.map(p=>p[0]+" "+p[1]).join(" L "),fill:"none",stroke:cvar("--top"),"stroke-width":2.4,"stroke-linejoin":"round"}));
+ [[cvar("--fade"),fp[fp.length-1],FADE[FADE.length-1].cum],[cvar("--top"),tp[tp.length-1],TOP[TOP.length-1].cum]].forEach(([c,p,v])=>{svg.appendChild(el("circle",{cx:p[0],cy:p[1],r:4,fill:c}));const t=el("text",{x:p[0]+6,y:p[1]+4,"font-size":11,"font-weight":600,fill:c,"font-family":cvar("--mono")});t.textContent=fmt(v);svg.appendChild(t);});
+})();
+// dan table
+(function(){
+ const t=document.getElementById("dantbl");
+ t.innerHTML="<tr><th>dàn</th><th>số</th><th>ăn/đ</th><th>win%</th><th>hoà vốn</th><th>P&L</th></tr>"+
+ DANTBL.map(r=>`<tr><td>${r.n}</td><td>${r.sz}</td><td class=mono>${r.w}/${r.b}</td><td class=mono>${r.wr}%</td><td class=mono>${r.be}%</td><td class="mono ${r.pnl<0?'neg':'pos'}">${fmt(r.pnl)}</td></tr>`).join("");
+})();
+// TOP nhip
+(function(){
+ const g=document.getElementById("topnhip"),nd=TOP.length;
+ g.style.gridTemplateColumns=`74px repeat(${nd},minmax(16px,1fr))`;g.style.minWidth=(90+nd*20)+"px";
+ const c=["<div></div>"];TOP.forEach(r=>c.push(`<div class=hd>${r.d}</div>`));
+ [["nguồn2x","ng"],["2D","d2"],["full7x","f7"]].forEach(([l,k])=>{c.push(`<div class=rl>${l}</div>`);TOP.forEach(r=>c.push(`<div class="cell ${r[k]?'hit':'miss'}">${r[k]?'✓':'✗'}</div>`));});
+ c.push(`<div class=rl>bảo hộ</div>`);TOP.forEach((r,i)=>c.push(`<div class="cell ${BH[i]?'hit':'miss'}">${BH[i]?'✓':'✗'}</div>`));
+ g.innerHTML=c.join("");
+})();
+// FADE nhip
+(function(){
+ const g=document.getElementById("fadenhip"),nd=FN.dates.length;
+ g.style.gridTemplateColumns=`80px repeat(${nd},minmax(22px,1fr))`;g.style.minWidth=(96+nd*26)+"px";
+ const c=["<div></div>"];FN.dates.forEach((d,i)=>c.push(`<div class=hd>${d}<br><b>${FN.dbs[i]}</b></div>`));
+ FN.rows.forEach(r=>{c.push(`<div class=rl>${r.n}</div>`);r.h.forEach(v=>c.push(`<div class="cell ${v?'hit':'miss'}">${v?'✓':'✗'}</div>`));});
+ c.push(`<div class=fl>ăn/8</div>`);FN.dates.forEach((d,i)=>{const s=FN.rows.reduce((a,r)=>a+r.h[i],0);c.push(`<div class=foot>${s}</div>`);});
+ g.innerHTML=c.join("");
+})();
+// lad3
+(function(){
+ const RAMP={"0x":"#0c8a3e","1x":"#3ba24e","2x":"#7ab648","3x":"#a8bf3d","4x":"#e0b02f","5x":"#eda238","6x":"#ea7f34","7x":"#e15f30","8x":"#d6432f","9x":"#c62828","out":"#6b6b6b","-":"#8a8a8a"};
+ const g=document.getElementById("lad3"),nd=L3.length;
+ g.style.gridTemplateColumns=`68px repeat(${nd},minmax(17px,1fr))`;g.style.minWidth=(84+nd*20)+"px";
+ const c=["<div></div>"];L3.forEach(r=>c.push(`<div class=hd>${r[0]}</div>`));
+ [["MB",2],[">3x",3],[">4x",4],["follow5x",5]].forEach(([l,ci])=>{c.push(`<div class=rl>${l}</div>`);L3.forEach(r=>{const t=r[ci],dk=(t=="2x"||t=="3x"||t=="4x");c.push(`<div class=cell style="background:${RAMP[t]};color:${dk?'#1a1a12':'#fff'};text-shadow:${dk?'none':'0 1px 2px rgba(0,0,0,.35)'}" title="${l} ${r[0]}/08 ĐB ${r[1]}">${t=='-'?'–':t}</div>`);});});
+ g.innerHTML=c.join("");
+})();
+</script></body></html>
